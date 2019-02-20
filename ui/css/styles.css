@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > img{
+  max-width: 187px;
+  min-height: 187px;
+}
+
+.container > button{
+  padding: 1em;
+  background-color: #5c5c5c;
+  color: white;
+}
